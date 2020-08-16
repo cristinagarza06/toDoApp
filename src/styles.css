@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+
+.hover-cursor{
+    cursor: pointer;
+}
+
+body{
+    background: rgb(151,254,93);
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgba(151,254,93,1) 0%, rgba(0,247,199,1) 35%, rgba(0,228,244,1) 100%);    
+}
+
+
+h4{
+    color: white;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { 
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { 
+   color: white;
+  }
+
+img{
+    display:block;
+    margin:auto;
+}
+.add-button{
+    
+    color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+}
+.form-control{
+    display:block;
+    width:100%;
+    padding:.375rem .75rem;
+    font-size:1rem;
+    line-height:1.5;
+    color:#495057;
+    background-color: transparent;
+    background-image:none;
+    border:2px solid #ced4da;
+    border-radius:.25rem;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    }
+
+.input-group-addon{
+    padding:.25rem .5rem;
+    font-size:.875rem;
+    border-radius:.2rem;
+    border-color: transparent;
+    background-color: #00B2AA;
+}
+.div-list{
+    margin: 12px 0px;
+}
+
+.list-header{
+    height: 60px;
+    background: #A7FE5E;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+span.list-header{
+    margin-left: 12px;
+}
+
+img.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    
+}
+
+
+

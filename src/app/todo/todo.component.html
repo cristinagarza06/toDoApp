@@ -1,0 +1,29 @@
+<div class="" style="padding: 45px 0px;">
+    <img src="/assets/images/ico-logo.png" alt="ironbit logo">
+
+    <h4 class="text-center"> Frontend Test</h4>
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" #itemTitle placeholder="Agrega una nueva tarea"> 
+    <div class="input-group-addon hover-cursor" (click)="onAdd(itemTitle)">
+        <button class="add-button" value="Agregar"> Agregar</button>
+    </div>
+</div>
+
+<div class="div-list">
+    
+    <ul class="list-group">
+        <div class="list-header">
+            <span class="list-header"> ToDo list by Iron Bit </span>
+            <img class="icon hover-cursor" src=" /assets/images/recycle-bin.svg" alt="trash" (click)="onDeleteAll()">
+        </div>
+        <li class="list-group-item" *ngFor="let item of toDoListArray">
+            {{item.name}}
+            <span class="hover-cursor text-danger pull-right" (click)="onDelete(item.$key)">
+                <img class="icon" src="/assets/images/remove.svg" alt="">
+            </span>
+        </li>
+    </ul>
+</div>
+
